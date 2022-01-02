@@ -1,13 +1,13 @@
 import React from 'react'
 import Homebar from '../Components/Homebar'
-import Profile from '../Components/Profile'
+import ProfileComp from '../Components/ProfileComp'
 
 function Dashboard() {
     return (
         <div className='dashboard'>
             <Homebar />
             <div className='container-d'>
-                <Profile />
+                <ProfileComp />
                 <div className='information'>
 
                 </div>
